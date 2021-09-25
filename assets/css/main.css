@@ -3615,7 +3615,7 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
 }
 
 #main>.posts>* {
-    padding: 4rem;
+    padding: 3rem;
     width: 50%;
 }
 
@@ -3641,11 +3641,11 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
 
 @media screen and (max-width: 980px) {
     #main>.posts>* {
-        width: 50%;
+        width: 100%;
     }
     #main>.posts>* {
         padding: 2.5rem;
-        width: 50%;
+        width: 100%;
     }
 }
 
