@@ -3543,6 +3543,21 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
     text-align: center;
 }
 
+ /*Added by to make the "check it out" Button be at the same height*/
+    .posts article {
+    display: flex;
+    flex-direction: column;
+    }
+
+    .posts article p {
+    flex-grow: 1; /* pushes the button section down */
+    }
+
+    .posts article .actions {
+    margin-top: auto; /* sticks the button to the bottom */
+    }
+ /*Added by me Jorest*/
+
 #main>.post {
     padding: 8rem 8rem 6rem 8rem;
 }
